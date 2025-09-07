@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import com.example.VroomVault_backend.Services.BookingService;
 import com.example.VroomVault_backend.Services.PaymentService;
+import com.example.VroomVault_backend.dto.BookingAfterPaymentDTO;
 import com.example.VroomVault_backend.dto.BookingDTO;
 import com.example.VroomVault_backend.dto.MyBookingDetailDTO;
 import com.example.VroomVault_backend.entities.Booking;
