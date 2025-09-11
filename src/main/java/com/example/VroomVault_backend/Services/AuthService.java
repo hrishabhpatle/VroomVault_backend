@@ -59,6 +59,8 @@ public class AuthService implements CustomUserDetailsService {
         user.setRole(role);
         user.setPhone(userDTO.getPhone());
         user.setAddress(userDTO.getAddress());
+        user.setAbout(userDTO.getAbout());
+        user.setPincode(userDTO.getPincode());
         user.setCity(userDTO.getCity());
         user.setState(userDTO.getState());
 
